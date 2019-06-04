@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ContentModelStore">
     <e p="C:\Users\Chapin Boyer\.Rider2018.2\system\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\Chapin Boyer\.Rider2018.2\system\resharper-host\local\Transient\ReSharperHost\v182\SolutionCaches\_Tennis Prototype.-2019753570.00" t="ExcludeRecursive" />
-    <e p="C:\Users\Chapin Boyer\Documents\Unity Projects\studio-2-simple-competitive\Tennis Prototype" t="IncludeRecursive">
+    <e p="C:\Users\Chapin Boyer\.Rider2018.2\system\resharper-host\local\Transient\ReSharperHost\v182\SolutionCaches\_Tennis Prototype.-163759864.00" t="ExcludeRecursive" />
+    <e p="C:\Users\Chapin Boyer\Documents\Unity Projects\tennis_thesisprototype\Tennis Prototype" t="IncludeRecursive">
       <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
@@ -136,6 +136,9 @@
               </e>
             </e>
           </e>
+        </e>
+        <e p="Scripts" t="Include">
+          <e p="PlayerScript.cs" t="Include" />
         </e>
       </e>
       <e p="Library" t="ExcludeRecursive" />
