@@ -38,6 +38,9 @@ public class PlayerScript : MonoBehaviour
     private float swingStrength;
     private bool swinging;
     
+    //Protected
+    public Vector3 moveVector;
+    
     
 
     private enum SwingSpin
@@ -115,9 +118,9 @@ public class PlayerScript : MonoBehaviour
     private void Walk()
     {
         //Check for walking
-        Vector3 moveVector = new Vector3(rewiredPlayer.GetAxis2DRaw("Horizontal", "Vertical").x, rewiredPlayer.GetAxis2DRaw("Horizontal", "Vertical").y, 0);
+        moveVector = new Vector3(rewiredPlayer.GetAxis2DRaw("Horizontal", "Vertical").x, rewiredPlayer.GetAxis2DRaw("Horizontal", "Vertical").y, 0);
 
-        transform.position += moveVector.normalized * Speed * Time.deltaTime;
+        transform.position += Vector3.ClampMagnitude(moveVector, 1) * Speed * Time.deltaTime;
     }
 
     private void DashCheck()
@@ -171,6 +174,7 @@ public class PlayerScript : MonoBehaviour
 
     private void SwingRelease()
     {
+        moveVector = new Vector3(rewiredPlayer.GetAxis2DRaw("Horizontal", "Vertical").x, rewiredPlayer.GetAxis2DRaw("Horizontal", "Vertical").y, 0);
         Debug.Log(type);
         if (type == SwingType.Forehand)
         {

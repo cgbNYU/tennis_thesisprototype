@@ -9,6 +9,8 @@ public class BallScript : MonoBehaviour
     public float Gravity;
     public float Bounce;
     public float RacketBounce;
+    public float GroundBounce;
+    public float WallBounce;
     
     //Private
     private Vector3 direction;
@@ -30,6 +32,31 @@ public class BallScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        Move();
+    }
+
+    private void Move()
+    {
+        transform.position += direction * speed * Time.deltaTime;
+    }
+
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.CompareTag("Racket"))
+        {
+            Debug.Log("HIT!");
+            //grab info from the racket
+            PlayerScript racketInfo = other.GetComponentInParent<PlayerScript>();
+            
+            //set direction based on what direction is held
+            direction = racketInfo.moveVector.normalized;
+            Debug.Log("Direction = " + direction);
+            
+            //set speed based on racket size
+            speed = MaxSpeed * racketInfo.gameObject.transform.localScale.x;
+            Debug.Log("Speed = " + speed);
+
+            //add to height
+        }
     }
 }
