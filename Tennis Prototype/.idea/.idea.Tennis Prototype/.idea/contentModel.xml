@@ -152,7 +152,9 @@
           </e>
         </e>
         <e p="Scripts" t="Include">
+          <e p="AnalogRacketScript.cs" t="Include" />
           <e p="BallScript.cs" t="Include" />
+          <e p="Player3DScript.cs" t="Include" />
           <e p="PlayerScript.cs" t="Include" />
         </e>
       </e>

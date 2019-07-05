@@ -36,7 +36,7 @@ public class PlayerScript : MonoBehaviour
     private Vector3 dashVector;
     private float timer;
     private float swingStrength;
-    private bool swinging;
+    public bool swinging;
     
     //Protected
     public Vector3 moveVector;

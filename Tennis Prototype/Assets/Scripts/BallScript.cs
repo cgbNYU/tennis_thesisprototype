@@ -10,6 +10,8 @@ public class BallScript : MonoBehaviour
     public float RacketBounce;
     public float GroundBounce;
     public float WallBounce;
+    public Transform LeftSpawn;
+    public Transform RightSpawn;
     
     //Private
     private Vector3 direction;
@@ -41,7 +43,20 @@ public class BallScript : MonoBehaviour
     void Update()
     {
         Move();
-        Drop();
+        //Drop();
+
+        if (Input.GetKeyDown(KeyCode.Q))
+        {
+            transform.position = LeftSpawn.position;
+            direction = Vector3.zero;
+            speed = 0;
+        }
+        else if (Input.GetKeyDown(KeyCode.P))
+        {
+            transform.position = RightSpawn.position;
+            direction = Vector3.zero;
+            speed = 0;
+        }
     }
 
     private void Move()
@@ -106,7 +121,15 @@ public class BallScript : MonoBehaviour
             
             
             //set speed based on racket size
-            speed = MaxSpeed * racketInfo.gameObject.transform.localScale.x;
+            if (racketInfo.swinging)
+            {
+                speed = MaxSpeed * racketInfo.gameObject.transform.localScale.x;
+            }
+            else
+            {
+                speed = MaxSpeed / 5;
+            }
+            
 
             //add to height
             verticalVelocity += RacketBounce;
