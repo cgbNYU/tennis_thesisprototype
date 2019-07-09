@@ -987,4 +987,6 @@ MonoBehaviour:
   PlayerNumber: 0
   RacketNeutralPos: {x: 0, y: -0.02, z: 0.9}
   RacketNeutralRot: {x: 0, y: -90, z: 30}
+  Radius: 0
+  RacketSpeed: 5
   Racket: {fileID: 583496649}

@@ -434,7 +434,7 @@ MonoBehaviour:
   MaxSpeed: 25
   Gravity: 1
   RacketBounce: 0
-  GroundBounce: 2
+  GroundBounce: 1.25
   WallBounce: 0
   LeftSpawn: {fileID: 1324879571}
   RightSpawn: {fileID: 444619924}

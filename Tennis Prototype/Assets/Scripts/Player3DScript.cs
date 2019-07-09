@@ -15,6 +15,7 @@ public class Player3DScript : MonoBehaviour
     public Vector3 RacketNeutralPos;
     public Vector3 RacketNeutralRot;
     public float Radius;
+    public float RacketSpeed;
 
     public GameObject Racket;
     
@@ -50,23 +51,32 @@ public class Player3DScript : MonoBehaviour
     private void RacketMove()
     {
         racketVector = new Vector3(rewiredPlayer.GetAxis2DRaw("HorizontalAim", "VerticalAim").x, rewiredPlayer.GetAxis2DRaw("HorizontalAim", "VerticalAim").y, 0);
-        
-        //Right side
-        if (racketVector.x > 0)
+
+        if (racketVector == Vector3.zero)
         {
-            float theta = Mathf.Asin(racketVector.y);
-            Vector3 racketAngle = new Vector3(0, 0, Mathf.Rad2Deg * theta); 
-            Racket.transform.localPosition = racketVector;
-            Racket.transform.rotation = Quaternion.Euler(racketAngle);
+            Racket.transform.localPosition = RacketNeutralPos;
+            Racket.transform.rotation = Quaternion.Euler(RacketNeutralRot);
         }
-        //left side
-        else if (racketVector.x < 0)
+        else
         {
-            float theta = Mathf.Asin(racketVector.y);
-            Vector3 racketAngle = new Vector3(0, 180, Mathf.Rad2Deg * theta); 
-            Racket.transform.localPosition = racketVector;
-            Racket.transform.rotation = Quaternion.Euler(racketAngle);
+            //Right side
+            if (racketVector.x > 0)
+            {
+                float theta = Mathf.Asin(racketVector.y);
+                Vector3 racketAngle = new Vector3(0, 0, Mathf.Rad2Deg * theta);
+                Vector3 distance = racketVector - Racket.transform.localPosition;
+                Racket.transform.localPosition += distance * RacketSpeed * Time.deltaTime;
+                Racket.transform.rotation = Quaternion.Euler(racketAngle);
+            }
+            //left side
+            else if (racketVector.x <= 0)
+            {
+                float theta = Mathf.Asin(racketVector.y);
+                Vector3 racketAngle = new Vector3(0, 180, Mathf.Rad2Deg * theta);
+                Vector3 distance = racketVector - Racket.transform.localPosition;
+                Racket.transform.localPosition += distance * RacketSpeed * Time.deltaTime;
+                Racket.transform.rotation = Quaternion.Euler(racketAngle);
+            }
         }
-        
     }
 }
