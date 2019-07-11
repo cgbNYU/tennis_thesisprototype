@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f44f213c-755b-4758-ba62-8893dea9abd7" name="Default Changelist" comment="Ball bounces!">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Tennis Prototype/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Tennis Prototype/.idea/contentModel.xml" afterDir="false" />
+    <list default="true" id="f44f213c-755b-4758-ba62-8893dea9abd7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Tennis Prototype/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Tennis Prototype/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/3DTest.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/3DTest.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/TennisMatch.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/TennisMatch.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player3DScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player3DScript.cs" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -27,21 +25,21 @@
     <session id="633305693">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
-          <entry key="project.open.time.5" value="3" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.closed" value="3" />
+          <entry key="project.open.time.5" value="4" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cs" value="4943" />
-          <entry key="txt" value="57" />
+          <entry key="cs" value="6072" />
+          <entry key="txt" value="99" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="C#" value="4943" />
-          <entry key="PLAIN_TEXT" value="57" />
+          <entry key="C#" value="6072" />
+          <entry key="PLAIN_TEXT" value="99" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -94,7 +92,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/PlayerScript.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-348">
+            <state relative-caret-position="1605">
               <caret line="165" column="60" selection-start-line="165" selection-start-column="60" selection-end-line="165" selection-end-column="60" />
               <folding>
                 <marker date="1562694309705" expanded="false" signature="6:289" ph="..." />
@@ -142,19 +140,32 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Player3DScript.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="687">
-              <caret line="73" column="70" lean-forward="true" selection-start-line="73" selection-start-column="70" selection-end-line="73" selection-end-column="70" />
+            <state relative-caret-position="180">
+              <caret line="85" column="8" lean-forward="true" selection-start-line="85" selection-start-column="8" selection-end-line="85" selection-end-column="8" />
               <folding>
-                <marker date="1562697372865" expanded="false" signature="6:196" ph="..." />
-                <marker date="1562697372865" expanded="true" signature="241:2657" ph="{...}" />
-                <marker date="1562697372865" expanded="true" signature="676:924" ph="{...}" />
-                <marker date="1562697372865" expanded="true" signature="982:1032" ph="{...}" />
-                <marker date="1562697372865" expanded="true" signature="1061:1345" ph="{...}" />
-                <marker date="1562697372865" expanded="true" signature="1376:2655" ph="{...}" />
-                <marker date="1562697372865" expanded="true" signature="1588:1747" ph="{...}" />
-                <marker date="1562697372865" expanded="true" signature="1760:2649" ph="{...}" />
-                <marker date="1562697372865" expanded="true" signature="1831:2146" ph="{...}" />
-                <marker date="1562697372865" expanded="true" signature="2212:2639" ph="{...}" />
+                <marker date="1562799694757" expanded="true" signature="6:232" ph="..." />
+                <marker date="1562799694757" expanded="true" signature="277:4819" ph="{...}" />
+                <marker date="1562799694757" expanded="true" signature="484:556" ph="/* Swing Zone Variables ... */" />
+                <marker date="1562799694757" expanded="true" signature="948:1056" ph="{...}" />
+                <marker date="1562799694757" expanded="true" signature="1163:1411" ph="{...}" />
+                <marker date="1562799694757" expanded="true" signature="1469:1720" ph="{...}" />
+                <marker date="1562799694757" expanded="true" signature="1498:1714" ph="{...}" />
+                <marker date="1562799694757" expanded="true" signature="1749:2033" ph="{...}" />
+                <marker date="1562799694757" expanded="true" signature="2063:3372" ph="{...}" />
+                <marker date="1562799694757" expanded="true" signature="2427:2630" ph="{...}" />
+                <marker date="1562799694757" expanded="true" signature="2481:2526" ph="{...}" />
+                <marker date="1562799694757" expanded="true" signature="2575:2620" ph="{...}" />
+                <marker date="1562799694757" expanded="true" signature="2684:2887" ph="{...}" />
+                <marker date="1562799694757" expanded="true" signature="2738:2783" ph="{...}" />
+                <marker date="1562799694757" expanded="true" signature="2832:2877" ph="{...}" />
+                <marker date="1562799694757" expanded="true" signature="2938:3141" ph="{...}" />
+                <marker date="1562799694757" expanded="true" signature="2992:3037" ph="{...}" />
+                <marker date="1562799694757" expanded="true" signature="3086:3131" ph="{...}" />
+                <marker date="1562799694757" expanded="true" signature="3163:3366" ph="{...}" />
+                <marker date="1562799694757" expanded="true" signature="3217:3262" ph="{...}" />
+                <marker date="1562799694757" expanded="true" signature="3311:3356" ph="{...}" />
+                <marker date="1562799694757" expanded="true" signature="3378:4817" ph="Old Functions" />
+                <marker date="1562799694757" expanded="true" signature="3405:4801" ph="/* private void RacketMove() ... */" />
               </folding>
             </state>
           </provider>
@@ -163,13 +174,27 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/BallScript.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="915">
+            <state relative-caret-position="867">
               <caret line="63" column="65" selection-start-line="63" selection-start-column="65" selection-end-line="63" selection-end-column="65" />
               <folding>
                 <marker date="1562694309697" expanded="false" signature="6:78" ph="..." />
                 <marker date="1562694309697" expanded="true" signature="119:3275" ph="{...}" />
-                <marker date="1562694309697" expanded="true" signature="3257:3267" ph="{...}" />
-                <marker date="1562694309697" expanded="true" signature="3257:3273" ph="{...}" />
+                <marker date="1562694309697" expanded="true" signature="684:835" ph="{...}" />
+                <marker date="1562694309697" expanded="true" signature="893:1296" ph="{...}" />
+                <marker date="1562694309697" expanded="true" signature="975:1109" ph="{...}" />
+                <marker date="1562694309697" expanded="true" signature="1155:1290" ph="{...}" />
+                <marker date="1562694309697" expanded="true" signature="1321:1399" ph="{...}" />
+                <marker date="1562694309697" expanded="true" signature="1424:1830" ph="{...}" />
+                <marker date="1562694309697" expanded="true" signature="1711:1753" ph="{...}" />
+                <marker date="1562694309697" expanded="true" signature="1857:2305" ph="{...}" />
+                <marker date="1562694309697" expanded="true" signature="1947:2021" ph="{...}" />
+                <marker date="1562694309697" expanded="true" signature="2136:2299" ph="{...}" />
+                <marker date="1562694309697" expanded="true" signature="2331:2352" ph="{...}" />
+                <marker date="1562694309697" expanded="true" signature="2405:3273" ph="{...}" />
+                <marker date="1562694309697" expanded="true" signature="2451:3267" ph="{...}" />
+                <marker date="1562694309697" expanded="true" signature="2722:2790" ph="{...}" />
+                <marker date="1562694309697" expanded="true" signature="2977:3086" ph="{...}" />
+                <marker date="1562694309697" expanded="true" signature="3103:3169" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -214,12 +239,12 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="SolutionExplorer">
+        <option name="show-all-files" value="false" />
+      </pane>
       <pane id="FileSystemExplorer" />
       <pane id="UnityExplorer">
         <option name="show-hidden-items" value="false" />
-      </pane>
-      <pane id="SolutionExplorer">
-        <option name="show-all-files" value="false" />
       </pane>
     </panes>
   </component>
@@ -228,132 +253,6 @@
     <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="settings.editor.selected.configurable" value="configurable.stylesheets" />
-  </component>
-  <component name="RestoreUpdateTree" date="Moments ago" ActionInfo="_Update">
-    <UpdatedFiles>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Updated from server" />
-        <option name="myStatusName" value="Changed on server" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="CHANGED_ON_SERVER" />
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Updated" />
-          <option name="myStatusName" value="Changed" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="UPDATED" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/.idea.Tennis Prototype/.idea/contentModel.xml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/.idea.Tennis Prototype/.idea/workspace.xml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Assets/Scenes/TennisMatch.unity</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Assets/Scripts/BallScript.cs</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Assets/Scripts/PlayerScript.cs</PATH>
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Created" />
-          <option name="myStatusName" value="Created" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="CREATED" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Assets/Materials/CourtMat.mat</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Assets/Materials/CourtMat.mat.meta</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Assets/Materials/RacketMat.mat</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Assets/Materials/RacketMat.mat.meta</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Assets/Resources/Prefabs/Rewired Input Manager.prefab</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Assets/Resources/Prefabs/Rewired Input Manager.prefab.meta</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Assets/Scenes/3DTest.unity</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Assets/Scenes/3DTest.unity.meta</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Assets/Scripts/AnalogRacketScript.cs</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Assets/Scripts/AnalogRacketScript.cs.meta</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Assets/Scripts/Player3DScript.cs</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Assets/Scripts/Player3DScript.cs.meta</PATH>
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Deleted" />
-          <option name="myStatusName" value="Deleted" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="true" />
-          <option name="myId" value="REMOVED_FROM_REPOSITORY" />
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Restored" />
-          <option name="myStatusName" value="Will be restored" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="RESTORED" />
-        </FILE-GROUP>
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Modified" />
-        <option name="myStatusName" value="Modified" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MODIFIED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Skipped" />
-        <option name="myStatusName" value="Skipped" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="SKIPPED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with conflicts" />
-        <option name="myStatusName" value="Will be merged with conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_CONFLICTS" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with tree conflicts" />
-        <option name="myStatusName" value="Merged with tree conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_TREE_CONFLICT" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with property conflicts" />
-        <option name="myStatusName" value="Will be merged with property conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_PROPERTY_CONFLICT" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged" />
-        <option name="myStatusName" value="Will be merged" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Not in repository" />
-        <option name="myStatusName" value="Not in repository" />
-        <option name="mySupportsDeletion" value="true" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="UNKNOWN" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Locally added" />
-        <option name="myStatusName" value="Locally added" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="LOCALLY_ADDED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Locally removed" />
-        <option name="myStatusName" value="Locally removed" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="LOCALLY_REMOVED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Switched" />
-        <option name="myStatusName" value="Switched" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="SWITCHED" />
-      </FILE-GROUP>
-    </UpdatedFiles>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -400,6 +299,7 @@
       <workItem from="1560368065878" duration="3655000" />
       <workItem from="1560886224195" duration="11479000" />
       <workItem from="1562276832374" duration="5007000" />
+      <workItem from="1562780635515" duration="7795000" />
     </task>
     <task id="LOCAL-00001" summary="Button swing test implemented">
       <created>1561062539683</created>
@@ -422,11 +322,18 @@
       <option name="project" value="LOCAL" />
       <updated>1561514869677</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Analog 3D momentum on racket. Janky still.">
+      <created>1562697570995</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1562697570995</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="49301000" />
+    <option name="totallyTimeSpent" value="57303000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -441,7 +348,7 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.25167784" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.25159913" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -479,7 +386,8 @@
     <MESSAGE value="Button swing test implemented" />
     <MESSAGE value="Added ball. No functionality" />
     <MESSAGE value="Ball bounces!" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ball bounces!" />
+    <MESSAGE value="Analog 3D momentum on racket. Janky still." />
+    <option name="LAST_COMMIT_MESSAGE" value="Analog 3D momentum on racket. Janky still." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -494,23 +402,40 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Assets/Rewired/Extras/ControlMapper/Scripts/UISelectionUtility.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/3DPlayerScript.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/MoveScript.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/AnalogRacketScript.cs">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/BallScript.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="915">
+        <state relative-caret-position="867">
           <caret line="63" column="65" selection-start-line="63" selection-start-column="65" selection-end-line="63" selection-end-column="65" />
           <folding>
             <marker date="1562694309697" expanded="false" signature="6:78" ph="..." />
             <marker date="1562694309697" expanded="true" signature="119:3275" ph="{...}" />
-            <marker date="1562694309697" expanded="true" signature="3257:3267" ph="{...}" />
-            <marker date="1562694309697" expanded="true" signature="3257:3273" ph="{...}" />
+            <marker date="1562694309697" expanded="true" signature="684:835" ph="{...}" />
+            <marker date="1562694309697" expanded="true" signature="893:1296" ph="{...}" />
+            <marker date="1562694309697" expanded="true" signature="975:1109" ph="{...}" />
+            <marker date="1562694309697" expanded="true" signature="1155:1290" ph="{...}" />
+            <marker date="1562694309697" expanded="true" signature="1321:1399" ph="{...}" />
+            <marker date="1562694309697" expanded="true" signature="1424:1830" ph="{...}" />
+            <marker date="1562694309697" expanded="true" signature="1711:1753" ph="{...}" />
+            <marker date="1562694309697" expanded="true" signature="1857:2305" ph="{...}" />
+            <marker date="1562694309697" expanded="true" signature="1947:2021" ph="{...}" />
+            <marker date="1562694309697" expanded="true" signature="2136:2299" ph="{...}" />
+            <marker date="1562694309697" expanded="true" signature="2331:2352" ph="{...}" />
+            <marker date="1562694309697" expanded="true" signature="2405:3273" ph="{...}" />
+            <marker date="1562694309697" expanded="true" signature="2451:3267" ph="{...}" />
+            <marker date="1562694309697" expanded="true" signature="2722:2790" ph="{...}" />
+            <marker date="1562694309697" expanded="true" signature="2977:3086" ph="{...}" />
+            <marker date="1562694309697" expanded="true" signature="3103:3169" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/MoveScript.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/PlayerScript.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-348">
+        <state relative-caret-position="1605">
           <caret line="165" column="60" selection-start-line="165" selection-start-column="60" selection-end-line="165" selection-end-column="60" />
           <folding>
             <marker date="1562694309705" expanded="false" signature="6:289" ph="..." />
@@ -554,34 +479,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/AnalogRacketScript.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <marker date="1562694309695" expanded="false" signature="6:93" ph="..." />
-            <marker date="1562694309695" expanded="true" signature="142:611" ph="{...}" />
-            <marker date="1562694309695" expanded="true" signature="354:466" ph="{...}" />
-            <marker date="1562694309695" expanded="true" signature="524:558" ph="{...}" />
-            <marker date="1562694309695" expanded="true" signature="588:609" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Player3DScript.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="687">
-          <caret line="73" column="70" lean-forward="true" selection-start-line="73" selection-start-column="70" selection-end-line="73" selection-end-column="70" />
+        <state relative-caret-position="180">
+          <caret line="85" column="8" lean-forward="true" selection-start-line="85" selection-start-column="8" selection-end-line="85" selection-end-column="8" />
           <folding>
-            <marker date="1562697372865" expanded="false" signature="6:196" ph="..." />
-            <marker date="1562697372865" expanded="true" signature="241:2657" ph="{...}" />
-            <marker date="1562697372865" expanded="true" signature="676:924" ph="{...}" />
-            <marker date="1562697372865" expanded="true" signature="982:1032" ph="{...}" />
-            <marker date="1562697372865" expanded="true" signature="1061:1345" ph="{...}" />
-            <marker date="1562697372865" expanded="true" signature="1376:2655" ph="{...}" />
-            <marker date="1562697372865" expanded="true" signature="1588:1747" ph="{...}" />
-            <marker date="1562697372865" expanded="true" signature="1760:2649" ph="{...}" />
-            <marker date="1562697372865" expanded="true" signature="1831:2146" ph="{...}" />
-            <marker date="1562697372865" expanded="true" signature="2212:2639" ph="{...}" />
+            <marker date="1562799694757" expanded="true" signature="6:232" ph="..." />
+            <marker date="1562799694757" expanded="true" signature="277:4819" ph="{...}" />
+            <marker date="1562799694757" expanded="true" signature="484:556" ph="/* Swing Zone Variables ... */" />
+            <marker date="1562799694757" expanded="true" signature="948:1056" ph="{...}" />
+            <marker date="1562799694757" expanded="true" signature="1163:1411" ph="{...}" />
+            <marker date="1562799694757" expanded="true" signature="1469:1720" ph="{...}" />
+            <marker date="1562799694757" expanded="true" signature="1498:1714" ph="{...}" />
+            <marker date="1562799694757" expanded="true" signature="1749:2033" ph="{...}" />
+            <marker date="1562799694757" expanded="true" signature="2063:3372" ph="{...}" />
+            <marker date="1562799694757" expanded="true" signature="2427:2630" ph="{...}" />
+            <marker date="1562799694757" expanded="true" signature="2481:2526" ph="{...}" />
+            <marker date="1562799694757" expanded="true" signature="2575:2620" ph="{...}" />
+            <marker date="1562799694757" expanded="true" signature="2684:2887" ph="{...}" />
+            <marker date="1562799694757" expanded="true" signature="2738:2783" ph="{...}" />
+            <marker date="1562799694757" expanded="true" signature="2832:2877" ph="{...}" />
+            <marker date="1562799694757" expanded="true" signature="2938:3141" ph="{...}" />
+            <marker date="1562799694757" expanded="true" signature="2992:3037" ph="{...}" />
+            <marker date="1562799694757" expanded="true" signature="3086:3131" ph="{...}" />
+            <marker date="1562799694757" expanded="true" signature="3163:3366" ph="{...}" />
+            <marker date="1562799694757" expanded="true" signature="3217:3262" ph="{...}" />
+            <marker date="1562799694757" expanded="true" signature="3311:3356" ph="{...}" />
+            <marker date="1562799694757" expanded="true" signature="3378:4817" ph="Old Functions" />
+            <marker date="1562799694757" expanded="true" signature="3405:4801" ph="/* private void RacketMove() ... */" />
           </folding>
         </state>
       </provider>
