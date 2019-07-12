@@ -295,14 +295,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 583496649}
-  m_LocalRotation: {x: -0.18301274, y: -0.6830127, z: 0.18301274, w: 0.6830127}
+  m_LocalRotation: {x: 0, y: -0.7071068, z: 0, w: 0.7071068}
   m_LocalPosition: {x: 0, y: -0.085, z: 0.882}
   m_LocalScale: {x: 0.30000013, y: 0.30000013, z: 0.30000028}
   m_Children:
   - {fileID: 633017384}
   m_Father: {fileID: 1879794335}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: -90, z: 30}
+  m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
 --- !u!1 &633017383
 GameObject:
   m_ObjectHideFlags: 0
@@ -1053,14 +1053,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1879794334}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0.17304651, y: 0, z: 0, w: 0.9849137}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 583496653}
   m_Father: {fileID: 2119476954}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: -19.93, y: 0, z: 0}
 --- !u!1 &2040374307
 GameObject:
   m_ObjectHideFlags: 0
@@ -1266,7 +1266,10 @@ MonoBehaviour:
   RacketSpeed: 5
   OverheadMax: -0.95
   TopMax: -0.5
-  FlatMax: 0.2
+  FlatMax: 0.25
+  VolleyMax: 0.8
+  SliceMax: 0
+  FlatRotation: {x: 0, y: 90, z: 0}
   Racket: {fileID: 583496649}
   Arm: {fileID: 1879794334}
   RacketVectorDebugText: {fileID: 1583658858}

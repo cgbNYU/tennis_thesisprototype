@@ -22,7 +22,12 @@ public class Player3DScript : MonoBehaviour
     //This is just the max y variable of the zone
     public float OverheadMax;
     public float TopMax;
-    public float FlatMax; //anything higher than this is a volley
+    public float FlatMax;
+    public float VolleyMax;
+    public float SliceMax; //probably not necessary, because anything higher than Volley should be a slice ergo.
+    
+    //Swing Rotations and Positions
+    public Vector3 FlatRotation;
 
     public GameObject Racket;
     public GameObject Arm;
@@ -33,16 +38,23 @@ public class Player3DScript : MonoBehaviour
     private Rewired.Player rewiredPlayer;
     private Vector3 moveVector;
     private Vector3 racketVector;
+    private int swingSide = 0;
+    private Vector3 lastRacketVector;
     
     //State
     private enum PlayerState
     {
         Idle,
         Walking,
-        TopSpin,
-        Slice,
+        FlatWindup,
+        FlatSwing,
+        TopWindup,
+        TopSwing,
+        SliceWindup,
+        SliceSwing,
         Volley,
-        Overhead
+        OverheadWindup,
+        OverheadSwing
     }
 
     private PlayerState state;
@@ -52,8 +64,6 @@ public class Player3DScript : MonoBehaviour
     {
         rewiredPlayer = ReInput.players.GetPlayer(PlayerNumber);
         moveVector = Vector3.zero;
-        Racket.transform.localPosition = RacketNeutralPos;
-        Racket.transform.localRotation = Quaternion.Euler(RacketNeutralRot);
     }
 
     // Update is called once per frame
@@ -67,6 +77,9 @@ public class Player3DScript : MonoBehaviour
                 break;
             case PlayerState.Walking:
                 Walk();
+                break;
+            case PlayerState.FlatWindup:
+                FlatWindup();
                 break;
         }
     }
@@ -90,7 +103,7 @@ public class Player3DScript : MonoBehaviour
             {
                 
             }
-            else if (racketVector.x <= 0) //left
+            else if (racketVector.x < 0) //left
             {
                 
             }
@@ -101,7 +114,7 @@ public class Player3DScript : MonoBehaviour
             {
                 
             }
-            else if (racketVector.x <= 0) //left
+            else if (racketVector.x < 0) //left
             {
                 
             }
@@ -110,24 +123,60 @@ public class Player3DScript : MonoBehaviour
         {
             if (racketVector.x > 0) //right
             {
-                
+                Vector3 armRotation = new Vector3(0, FlatRotation.y * Mathf.Sign(racketVector.x) * racketVector.y, 0);
+                Arm.transform.rotation = Quaternion.Euler(FlatRotation);
+                swingSide = 1;
+                lastRacketVector = racketVector;
+                //state = PlayerState.FlatWindup;
             }
-            else if (racketVector.x <= 0) //left
+            else if (racketVector.x < 0) //left
             {
-                
+                Vector3 armRotation = new Vector3(0, FlatRotation.y * Mathf.Sign(racketVector.x) * racketVector.y, 0);
+                Arm.transform.rotation = Quaternion.Euler(FlatRotation);
+                swingSide = -1;
+                lastRacketVector = racketVector;
+                //state = PlayerState.FlatWindup;
             }
         }
-        else //Volley
+        else if (racketVector.y <= VolleyMax) //Volley
         {
             if (racketVector.x > 0) //right
             {
                 
             }
-            else if (racketVector.x <= 0) //left
+            else if (racketVector.x < 0) //left
             {
                 
             }
         }
+        else //Slice
+        {
+            if (racketVector.x > 0) //right
+            {
+                
+            }
+            else if (racketVector.x < 0) //left
+            {
+                
+            }
+        }
+    }
+
+    public void FlatWindup()
+    {
+        //Racket is held back and swings forward based on the y axis of the stick
+        racketVector = new Vector3(rewiredPlayer.GetAxis2DRaw("HorizontalAim", "VerticalAim").x, rewiredPlayer.GetAxis2DRaw("HorizontalAim", "VerticalAim").y, 0);
+        RacketVectorDebugText.text = "Racket X = " + Math.Round(racketVector.x, 3) + "Racket Y = " + Math.Round(racketVector.y, 3);
+
+
+       /* Vector3 newRotation = new Vector3(FlatRotation.x * racketVector.x, Mathf.Sign(racketVector.x) * (racketVector.y * FlatRotation.y),
+            FlatRotation.z * racketVector.z);
+        Arm.transform.rotation = Quaternion.Euler(newRotation);*/
+
+        float distance = lastRacketVector.y - racketVector.y;
+        Arm.transform.rotation = Quaternion.Euler(new Vector3(0, Arm.transform.rotation.y + distance, 0));
+
+        lastRacketVector = racketVector;
     }
 
     #region Old Functions
