@@ -127,7 +127,7 @@ public class Player3DScript : MonoBehaviour
                 Arm.transform.rotation = Quaternion.Euler(FlatRotation);
                 swingSide = 1;
                 lastRacketVector = racketVector;
-                //state = PlayerState.FlatWindup;
+                state = PlayerState.FlatWindup;
             }
             else if (racketVector.x < 0) //left
             {
@@ -135,7 +135,7 @@ public class Player3DScript : MonoBehaviour
                 Arm.transform.rotation = Quaternion.Euler(FlatRotation);
                 swingSide = -1;
                 lastRacketVector = racketVector;
-                //state = PlayerState.FlatWindup;
+                state = PlayerState.FlatWindup;
             }
         }
         else if (racketVector.y <= VolleyMax) //Volley

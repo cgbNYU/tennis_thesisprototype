@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="f44f213c-755b-4758-ba62-8893dea9abd7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Tennis Prototype/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Tennis Prototype/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/3DTest.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/3DTest.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player3DScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player3DScript.cs" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,21 +24,21 @@
     <session id="633305693">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
+          <entry key="project.closed" value="4" />
           <entry key="project.open.time.5" value="4" />
           <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cs" value="6072" />
-          <entry key="txt" value="99" />
+          <entry key="cs" value="6074" />
+          <entry key="txt" value="150" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="C#" value="6072" />
-          <entry key="PLAIN_TEXT" value="99" />
+          <entry key="C#" value="6074" />
+          <entry key="PLAIN_TEXT" value="150" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -140,32 +139,37 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Player3DScript.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="85" column="8" lean-forward="true" selection-start-line="85" selection-start-column="8" selection-end-line="85" selection-end-column="8" />
+            <state relative-caret-position="-123">
+              <caret line="155" column="16" lean-forward="true" selection-start-line="155" selection-start-column="16" selection-end-line="155" selection-end-column="16" />
               <folding>
-                <marker date="1562799694757" expanded="true" signature="6:232" ph="..." />
-                <marker date="1562799694757" expanded="true" signature="277:4819" ph="{...}" />
-                <marker date="1562799694757" expanded="true" signature="484:556" ph="/* Swing Zone Variables ... */" />
-                <marker date="1562799694757" expanded="true" signature="948:1056" ph="{...}" />
-                <marker date="1562799694757" expanded="true" signature="1163:1411" ph="{...}" />
-                <marker date="1562799694757" expanded="true" signature="1469:1720" ph="{...}" />
-                <marker date="1562799694757" expanded="true" signature="1498:1714" ph="{...}" />
-                <marker date="1562799694757" expanded="true" signature="1749:2033" ph="{...}" />
-                <marker date="1562799694757" expanded="true" signature="2063:3372" ph="{...}" />
-                <marker date="1562799694757" expanded="true" signature="2427:2630" ph="{...}" />
-                <marker date="1562799694757" expanded="true" signature="2481:2526" ph="{...}" />
-                <marker date="1562799694757" expanded="true" signature="2575:2620" ph="{...}" />
-                <marker date="1562799694757" expanded="true" signature="2684:2887" ph="{...}" />
-                <marker date="1562799694757" expanded="true" signature="2738:2783" ph="{...}" />
-                <marker date="1562799694757" expanded="true" signature="2832:2877" ph="{...}" />
-                <marker date="1562799694757" expanded="true" signature="2938:3141" ph="{...}" />
-                <marker date="1562799694757" expanded="true" signature="2992:3037" ph="{...}" />
-                <marker date="1562799694757" expanded="true" signature="3086:3131" ph="{...}" />
-                <marker date="1562799694757" expanded="true" signature="3163:3366" ph="{...}" />
-                <marker date="1562799694757" expanded="true" signature="3217:3262" ph="{...}" />
-                <marker date="1562799694757" expanded="true" signature="3311:3356" ph="{...}" />
-                <marker date="1562799694757" expanded="true" signature="3378:4817" ph="Old Functions" />
-                <marker date="1562799694757" expanded="true" signature="3405:4801" ph="/* private void RacketMove() ... */" />
+                <marker date="1562951071819" expanded="true" signature="6:232" ph="..." />
+                <marker date="1562951071819" expanded="true" signature="277:6880" ph="{...}" />
+                <marker date="1562951071819" expanded="true" signature="484:556" ph="/* Swing Zone Variables ... */" />
+                <marker date="1562951071819" expanded="true" signature="1192:1414" ph="{...}" />
+                <marker date="1562951071819" expanded="true" signature="1521:1633" ph="{...}" />
+                <marker date="1562951071819" expanded="true" signature="1691:2036" ph="{...}" />
+                <marker date="1562951071819" expanded="true" signature="1720:2030" ph="{...}" />
+                <marker date="1562951071819" expanded="true" signature="2065:2349" ph="{...}" />
+                <marker date="1562951071819" expanded="true" signature="2379:4547" ph="{...}" />
+                <marker date="1562951071819" expanded="true" signature="2743:2945" ph="{...}" />
+                <marker date="1562951071819" expanded="true" signature="2797:2842" ph="{...}" />
+                <marker date="1562951071819" expanded="true" signature="2890:2935" ph="{...}" />
+                <marker date="1562951071819" expanded="true" signature="2999:3201" ph="{...}" />
+                <marker date="1562951071819" expanded="true" signature="3053:3098" ph="{...}" />
+                <marker date="1562951071819" expanded="true" signature="3146:3191" ph="{...}" />
+                <marker date="1562951071819" expanded="true" signature="3252:4061" ph="{...}" />
+                <marker date="1562951071819" expanded="true" signature="3306:3654" ph="{...}" />
+                <marker date="1562951071819" expanded="true" signature="3702:4051" ph="{...}" />
+                <marker date="1562951071819" expanded="true" signature="4116:4318" ph="{...}" />
+                <marker date="1562951071819" expanded="true" signature="4170:4215" ph="{...}" />
+                <marker date="1562951071819" expanded="true" signature="4263:4308" ph="{...}" />
+                <marker date="1562951071819" expanded="true" signature="4339:4541" ph="{...}" />
+                <marker date="1562951071819" expanded="true" signature="4393:4438" ph="{...}" />
+                <marker date="1562951071819" expanded="true" signature="4486:4531" ph="{...}" />
+                <marker date="1562951071819" expanded="true" signature="4577:5433" ph="{...}" />
+                <marker date="1562951071819" expanded="true" signature="4970:5215" ph="/* Vector3 newRotation = new Vector3(FlatRotation.x * racketVector.x, Mathf.Sign(racketVector.x) * (racketVector. ... */" />
+                <marker date="1562951071819" expanded="true" signature="5439:6878" ph="Old Functions" />
+                <marker date="1562951071819" expanded="true" signature="5466:6862" ph="/* private void RacketMove() ... */" />
               </folding>
             </state>
           </provider>
@@ -229,9 +233,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="width" value="977" />
-    <option name="height" value="1038" />
+    <option name="x" value="953" />
+    <option name="width" value="974" />
+    <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -253,6 +257,117 @@
     <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="settings.editor.selected.configurable" value="configurable.stylesheets" />
+  </component>
+  <component name="RestoreUpdateTree" date="Moments ago" ActionInfo="_Update">
+    <UpdatedFiles>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Updated from server" />
+        <option name="myStatusName" value="Changed on server" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="CHANGED_ON_SERVER" />
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Updated" />
+          <option name="myStatusName" value="Changed" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="UPDATED" />
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Assets/Scenes/3DTest.unity</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Assets/Scripts/Player3DScript.cs</PATH>
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Created" />
+          <option name="myStatusName" value="Created" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="CREATED" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Deleted" />
+          <option name="myStatusName" value="Deleted" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="true" />
+          <option name="myId" value="REMOVED_FROM_REPOSITORY" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Restored" />
+          <option name="myStatusName" value="Will be restored" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="RESTORED" />
+        </FILE-GROUP>
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Modified" />
+        <option name="myStatusName" value="Modified" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MODIFIED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Skipped" />
+        <option name="myStatusName" value="Skipped" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="SKIPPED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with conflicts" />
+        <option name="myStatusName" value="Will be merged with conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_CONFLICTS" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with tree conflicts" />
+        <option name="myStatusName" value="Merged with tree conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_TREE_CONFLICT" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with property conflicts" />
+        <option name="myStatusName" value="Will be merged with property conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_PROPERTY_CONFLICT" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged" />
+        <option name="myStatusName" value="Will be merged" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Not in repository" />
+        <option name="myStatusName" value="Not in repository" />
+        <option name="mySupportsDeletion" value="true" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="UNKNOWN" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Locally added" />
+        <option name="myStatusName" value="Locally added" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="LOCALLY_ADDED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Locally removed" />
+        <option name="myStatusName" value="Locally removed" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="LOCALLY_REMOVED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Switched" />
+        <option name="myStatusName" value="Switched" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="SWITCHED" />
+      </FILE-GROUP>
+    </UpdatedFiles>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -299,7 +414,7 @@
       <workItem from="1560368065878" duration="3655000" />
       <workItem from="1560886224195" duration="11479000" />
       <workItem from="1562276832374" duration="5007000" />
-      <workItem from="1562780635515" duration="7795000" />
+      <workItem from="1562780635515" duration="9591000" />
     </task>
     <task id="LOCAL-00001" summary="Button swing test implemented">
       <created>1561062539683</created>
@@ -329,11 +444,18 @@
       <option name="project" value="LOCAL" />
       <updated>1562697570995</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="3D Stance basics added. Still need functionality">
+      <created>1562865520848</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1562865520848</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="57303000" />
+    <option name="totallyTimeSpent" value="59099000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -387,7 +509,8 @@
     <MESSAGE value="Added ball. No functionality" />
     <MESSAGE value="Ball bounces!" />
     <MESSAGE value="Analog 3D momentum on racket. Janky still." />
-    <option name="LAST_COMMIT_MESSAGE" value="Analog 3D momentum on racket. Janky still." />
+    <MESSAGE value="3D Stance basics added. Still need functionality" />
+    <option name="LAST_COMMIT_MESSAGE" value="3D Stance basics added. Still need functionality" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -481,32 +604,37 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Player3DScript.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="85" column="8" lean-forward="true" selection-start-line="85" selection-start-column="8" selection-end-line="85" selection-end-column="8" />
+        <state relative-caret-position="-123">
+          <caret line="155" column="16" lean-forward="true" selection-start-line="155" selection-start-column="16" selection-end-line="155" selection-end-column="16" />
           <folding>
-            <marker date="1562799694757" expanded="true" signature="6:232" ph="..." />
-            <marker date="1562799694757" expanded="true" signature="277:4819" ph="{...}" />
-            <marker date="1562799694757" expanded="true" signature="484:556" ph="/* Swing Zone Variables ... */" />
-            <marker date="1562799694757" expanded="true" signature="948:1056" ph="{...}" />
-            <marker date="1562799694757" expanded="true" signature="1163:1411" ph="{...}" />
-            <marker date="1562799694757" expanded="true" signature="1469:1720" ph="{...}" />
-            <marker date="1562799694757" expanded="true" signature="1498:1714" ph="{...}" />
-            <marker date="1562799694757" expanded="true" signature="1749:2033" ph="{...}" />
-            <marker date="1562799694757" expanded="true" signature="2063:3372" ph="{...}" />
-            <marker date="1562799694757" expanded="true" signature="2427:2630" ph="{...}" />
-            <marker date="1562799694757" expanded="true" signature="2481:2526" ph="{...}" />
-            <marker date="1562799694757" expanded="true" signature="2575:2620" ph="{...}" />
-            <marker date="1562799694757" expanded="true" signature="2684:2887" ph="{...}" />
-            <marker date="1562799694757" expanded="true" signature="2738:2783" ph="{...}" />
-            <marker date="1562799694757" expanded="true" signature="2832:2877" ph="{...}" />
-            <marker date="1562799694757" expanded="true" signature="2938:3141" ph="{...}" />
-            <marker date="1562799694757" expanded="true" signature="2992:3037" ph="{...}" />
-            <marker date="1562799694757" expanded="true" signature="3086:3131" ph="{...}" />
-            <marker date="1562799694757" expanded="true" signature="3163:3366" ph="{...}" />
-            <marker date="1562799694757" expanded="true" signature="3217:3262" ph="{...}" />
-            <marker date="1562799694757" expanded="true" signature="3311:3356" ph="{...}" />
-            <marker date="1562799694757" expanded="true" signature="3378:4817" ph="Old Functions" />
-            <marker date="1562799694757" expanded="true" signature="3405:4801" ph="/* private void RacketMove() ... */" />
+            <marker date="1562951071819" expanded="true" signature="6:232" ph="..." />
+            <marker date="1562951071819" expanded="true" signature="277:6880" ph="{...}" />
+            <marker date="1562951071819" expanded="true" signature="484:556" ph="/* Swing Zone Variables ... */" />
+            <marker date="1562951071819" expanded="true" signature="1192:1414" ph="{...}" />
+            <marker date="1562951071819" expanded="true" signature="1521:1633" ph="{...}" />
+            <marker date="1562951071819" expanded="true" signature="1691:2036" ph="{...}" />
+            <marker date="1562951071819" expanded="true" signature="1720:2030" ph="{...}" />
+            <marker date="1562951071819" expanded="true" signature="2065:2349" ph="{...}" />
+            <marker date="1562951071819" expanded="true" signature="2379:4547" ph="{...}" />
+            <marker date="1562951071819" expanded="true" signature="2743:2945" ph="{...}" />
+            <marker date="1562951071819" expanded="true" signature="2797:2842" ph="{...}" />
+            <marker date="1562951071819" expanded="true" signature="2890:2935" ph="{...}" />
+            <marker date="1562951071819" expanded="true" signature="2999:3201" ph="{...}" />
+            <marker date="1562951071819" expanded="true" signature="3053:3098" ph="{...}" />
+            <marker date="1562951071819" expanded="true" signature="3146:3191" ph="{...}" />
+            <marker date="1562951071819" expanded="true" signature="3252:4061" ph="{...}" />
+            <marker date="1562951071819" expanded="true" signature="3306:3654" ph="{...}" />
+            <marker date="1562951071819" expanded="true" signature="3702:4051" ph="{...}" />
+            <marker date="1562951071819" expanded="true" signature="4116:4318" ph="{...}" />
+            <marker date="1562951071819" expanded="true" signature="4170:4215" ph="{...}" />
+            <marker date="1562951071819" expanded="true" signature="4263:4308" ph="{...}" />
+            <marker date="1562951071819" expanded="true" signature="4339:4541" ph="{...}" />
+            <marker date="1562951071819" expanded="true" signature="4393:4438" ph="{...}" />
+            <marker date="1562951071819" expanded="true" signature="4486:4531" ph="{...}" />
+            <marker date="1562951071819" expanded="true" signature="4577:5433" ph="{...}" />
+            <marker date="1562951071819" expanded="true" signature="4970:5215" ph="/* Vector3 newRotation = new Vector3(FlatRotation.x * racketVector.x, Mathf.Sign(racketVector.x) * (racketVector. ... */" />
+            <marker date="1562951071819" expanded="true" signature="5439:6878" ph="Old Functions" />
+            <marker date="1562951071819" expanded="true" signature="5466:6862" ph="/* private void RacketMove() ... */" />
           </folding>
         </state>
       </provider>
